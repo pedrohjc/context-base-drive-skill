@@ -19,7 +19,7 @@ Os atalhos são convenções de conversa reconhecidas pela skill quando a mensag
 
 ## Instalação
 
-Baixe `contextos-drive.zip` em [Releases](../../releases), quando houver uma versão publicada, ou use a pasta [skills/contextos-drive](skills/contextos-drive). O ZIP contém a pasta da skill com SKILL.md e suas referências, sem o restante do repositório.
+Baixe `contextos-drive.zip` em [Releases](https://github.com/pedrohjc/context-base-drive-skill/releases) ou use a pasta [skills/contextos-drive](skills/contextos-drive). O ZIP contém a pasta da skill com SKILL.md e suas referências, sem o restante do repositório.
 
 ### ChatGPT
 
