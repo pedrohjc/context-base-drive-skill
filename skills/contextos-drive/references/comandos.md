@@ -4,6 +4,8 @@
 
 Objetivo: vincular a base pessoal e verificar acesso. Não significa começar a salvar toda a conversa.
 
+Leia configuracao.md e siga o guia simples conduzido pela IA. Apresente uma etapa por vez e reaproveite o que a pessoa já informou. Não exija que ela compreenda os documentos ou leia o README inteiro para começar.
+
 1. Reutilize a pasta já indicada pelo usuário na sessão ou configuração. Se faltar, pergunte se existe uma base e solicite o link da pasta própria ou o destino para uma nova base.
 2. Verifique conexão, leitura e ferramentas de escrita sem gravar conteúdo de teste.
 3. Para base existente, leia INSTRUCOES e INDEX e preserve a estrutura. Para base nova, consulte configuracao.md. `/init` isolado autoriza iniciar a configuração, não criar documentos. Um pedido como `/init criar nova base nesta pasta: LINK` autoriza a estrutura inicial no destino indicado.

@@ -19,6 +19,22 @@ Os atalhos são convenções de conversa reconhecidas pela skill quando a mensag
 
 ## Instalação
 
+### Peça à sua IA para guiar você
+
+Baixe o ZIP e envie este pedido ao ChatGPT ou Claude que pretende usar:
+
+> Quero usar a Context Base Drive Skill com o meu próprio Google Drive. Me guie com um passo a passo simples, uma etapa por vez. Comece pela instalação da skill, depois me ajude a conectar meu Drive e escolher ou criar minha pasta de contextos. Aguarde minha resposta quando eu precisar fazer algo. Antes de criar documentos, explique o que será criado e peça autorização se eu ainda não tiver autorizado.
+
+Se o produto aceitar anexos, anexe o ZIP para a IA consultar as instruções. Anexar o arquivo ao chat não significa instalar a skill; a IA deve orientar a instalação suportada pela sua conta. Você também pode enviar o conteúdo do README se ela não conseguir acessar este repositório.
+
+Depois de instalar e ativar, basta dizer:
+
+> Use a skill contextos-drive e me ajude a configurar minha base, uma etapa por vez.
+
+O fluxo `init` já orienta a IA a acompanhar você: verificar a conexão, obter sua pasta, preparar os documentos iniciais mediante autorização e mostrar como buscar e salvar. Você não precisa entender a estrutura dos arquivos antes de começar.
+
+### Prefere instalar diretamente?
+
 Baixe `contextos-drive.zip` em [Releases](https://github.com/pedrohjc/context-base-drive-skill/releases) ou use a pasta [skills/contextos-drive](skills/contextos-drive). O ZIP contém a pasta da skill com SKILL.md e suas referências, sem o restante do repositório.
 
 ### ChatGPT
@@ -81,7 +97,7 @@ A skill não fornece conector próprio, servidor, sincronização em segundo pla
 
 ## Estado da versão
 
-Versão inicial **0.2.0**, preparada em 2026-10-01. Estrutura, referências e pacote são verificáveis localmente. Instalação e comportamento completo em contas reais de ChatGPT e Claude ainda precisam ser testados, incluindo acesso ao Drive e eventual alternativa manual para gravação.
+Versão de teste **0.2.1**, preparada em 2026-10-01, com configuração guiada pela IA, uma etapa por vez. Estrutura, referências e pacote são verificáveis localmente. Instalação e comportamento completo em contas reais de ChatGPT e Claude ainda precisam ser testados, incluindo acesso ao Drive e eventual alternativa manual para gravação.
 
 Antes de distribuir, teste: configurar pasta própria; buscar um contexto existente; conversar sem gerar gravação; salvar mediante pedido explícito; verificar contexto e índice; retomar o documento em outra conversa e no outro produto. Use dados fictícios para esses testes.
 

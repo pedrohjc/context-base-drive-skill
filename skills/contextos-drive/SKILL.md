@@ -15,7 +15,7 @@ Não prometa registrar comandos nativos ou interceptar comandos reservados. No C
 
 ## Configuração inicial
 
-Leia [configuracao.md](references/configuracao.md) quando a pasta ainda não estiver definida ou o usuário pedir configuração. Utilize somente a conta conectada pelo usuário e a pasta que ele indicar. Nunca use uma pasta padrão do autor. Não peça senha, token ou que torne a pasta pública.
+Leia [configuracao.md](references/configuracao.md) quando a pasta ainda não estiver definida ou o usuário pedir configuração. Conduza a pessoa com uma etapa simples por vez, aproveitando o que já estiver feito. Utilize somente a conta conectada pelo usuário e a pasta que ele indicar. Nunca use uma pasta padrão do autor. Não peça senha, token ou que torne a pasta pública.
 
 A skill não instala conectores, não concede permissões e não garante execução no início de toda conversa. Verifique as ferramentas efetivamente disponíveis. Diferencie capacidade de pesquisar, ler conteúdo completo, criar e editar. Quando houver somente leitura, consulte normalmente e entregue alterações como texto para o usuário salvar.
 
